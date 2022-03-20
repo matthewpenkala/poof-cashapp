@@ -4,7 +4,6 @@
       <meta charset="utf-8">
       <meta name="description" content="Automated CashApp payment processing powered by Poof and Square">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
       <link href="../../static/assets/css/cash.css" rel="stylesheet">
       <link href="../../tailwindcss%402.2.19/dist/tailwind.min.css" rel="stylesheet">
       <template id="tmpl">
@@ -181,7 +180,8 @@
             </svg>
          </div>
       </div>
-      <script type="9e01eede50210aaf20e62988-text/javascript">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
          $( "#checkoutIcon" ).click(function() {
              $( "#checkoutTooltip" ).toggle( "fast" );
          });
@@ -191,7 +191,7 @@
              };
          })
       </script>
-      <script type="9e01eede50210aaf20e62988-text/javascript">
+      <script>
          function myFunction(){
              x = x+1;
              console.log('myFunction Called')
@@ -222,7 +222,7 @@
          }, 15000)
          
       </script>
-      <script type="9e01eede50210aaf20e62988-text/javascript">
+      <script>
          $(document).ready(function () {
              $("button").click(function (event) {
                  event.preventDefault();
